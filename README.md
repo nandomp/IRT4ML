@@ -1,4 +1,7 @@
-# {Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level (Expermiments & Code)
+# Item Response Theory in AI: 
+# Analysing Machine Learning Classifiers at the Instance Level 
+
+Code, configuration files, expermiments & results
 
 
 
