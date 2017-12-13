@@ -1,4 +1,4 @@
-# Making sense of IRT in machine learning (Expermiments & Code) [UPDATING...]
+# {Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level (Expermiments & Code)
 
 
 
