@@ -1,0 +1,5 @@
+Noisy instances (01_chocardiogram.csv): 29 33 48
+Noisy instances (02_hepatitis.csv): 77 99 107 135 144
+Noisy instances (03_heart-statlog.csv): 3 11 32 38 41 59 65 68 77 85 88 102 113 125 135 140 147 154 165 185 188 201 208 218 219 235 253
+Noisy instances (04_ionosphere.csv): 90 106 110 121 236 237 291
+Noisy instances (05_parkinsons.csv): 8 115 144 195

@@ -1,0 +1,7 @@
+Noisy instances (06_balance-scale.csv): 
+Noisy instances (07_energy.csv): 
+Noisy instances (08_seeds.csv): 
+Noisy instances (09_teaching.csv): 
+Noisy instances (10_vertebral-column.csv): 
+Noisy instances (11_ecoli.csv): 
+Noisy instances (12_flags.csv): 

@@ -1,0 +1,56 @@
+\begin{table}[ht]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{rlllrrrrrrrrr}
+  \hline
+ & data & CorrMethod & Param & kDN & DS & DCP & TD\_P & TD\_U & CL & CLD & MV & CB \\ 
+  \hline
+1 & 01\_chocardiogram.csv & spearman & Gussng & -0.07 & 0.32 & 0.49 & -0.45 & -0.47 & 0.25 & 0.25 & 0.06 & -0.06 \\ 
+  2 & 01\_chocardiogram.csv & spearman & Dffclt & -0.03 & 0.25 & 0.54 & -0.47 & -0.47 & 0.16 & 0.16 & 0.13 & -0.13 \\ 
+  3 & 01\_chocardiogram.csv & spearman & Dscrmn & -0.20 & 0.57 & 0.80 & -0.71 & -0.72 & 0.50 & 0.50 & 0.08 & -0.08 \\ \hline
+  4 & 01\_chocardiogram.csv & pearson & Gussng & -0.12 & 0.29 & 0.29 & -0.34 & -0.37 & 0.31 & 0.31 & 0.07 & -0.07 \\ 
+  5 & 01\_chocardiogram.csv & pearson & Dffclt & -0.17 & 0.15 & 0.12 & -0.09 & -0.06 & 0.06 & 0.06 & -0.11 & 0.11 \\ 
+  6 & 01\_chocardiogram.csv & pearson & Dscrmn & -0.14 & 0.43 & 0.55 & -0.67 & -0.68 & 0.52 & 0.52 & 0.26 & -0.26 \\ \hline
+  7 & 01\_chocardiogram.csv & kendall & Gussng & -0.03 & 0.24 & 0.36 & -0.33 & -0.33 & 0.16 & 0.16 & 0.05 & -0.05 \\ 
+  8 & 01\_chocardiogram.csv & kendall & Dffclt & 0.00 & 0.17 & 0.41 & -0.36 & -0.35 & 0.09 & 0.09 & 0.11 & -0.11 \\ 
+  9 & 01\_chocardiogram.csv & kendall & Dscrmn & -0.14 & 0.41 & 0.65 & -0.56 & -0.57 & 0.38 & 0.38 & 0.07 & -0.07 \\ \hline \hline
+  10 & 02\_hepatitis.csv & spearman & Gussng & 0.01 & -0.13 & -0.13 & 0.20 & 0.22 & -0.51 & -0.51 & -0.34 & 0.34 \\ 
+  11 & 02\_hepatitis.csv & spearman & Dffclt & 0.53 & -0.27 & -0.09 & 0.24 & 0.00 & -0.13 & -0.13 & 0.34 & -0.34 \\ 
+  12 & 02\_hepatitis.csv & spearman & Dscrmn & -0.48 & 0.47 & 0.32 & -0.36 & -0.23 & -0.37 & -0.37 & -0.70 & 0.70 \\\hline 
+  13 & 02\_hepatitis.csv & pearson & Gussng & 0.10 & -0.19 & -0.14 & 0.25 & 0.20 & -0.45 & -0.45 & -0.16 & 0.16 \\ 
+  14 & 02\_hepatitis.csv & pearson & Dffclt & 0.43 & -0.39 & -0.11 & 0.21 & 0.04 & -0.21 & -0.21 & 0.43 & -0.43 \\ 
+  15 & 02\_hepatitis.csv & pearson & Dscrmn & -0.50 & 0.42 & 0.34 & -0.26 & -0.21 & -0.36 & -0.36 & -0.66 & 0.66 \\ \hline
+  16 & 02\_hepatitis.csv & kendall & Gussng & 0.00 & -0.10 & -0.11 & 0.16 & 0.16 & -0.32 & -0.32 & -0.28 & 0.28 \\ 
+  17 & 02\_hepatitis.csv & kendall & Dffclt & 0.40 & -0.20 & -0.07 & 0.18 & 0.01 & -0.11 & -0.11 & 0.28 & -0.28 \\ 
+  18 & 02\_hepatitis.csv & kendall & Dscrmn & -0.35 & 0.38 & 0.26 & -0.27 & -0.16 & -0.23 & -0.23 & -0.57 & 0.57 \\ \hline \hline
+  19 & 03\_heart-statlog.csv & spearman & Gussng & -0.02 & 0.31 & 0.17 & -0.12 & 0.16 & 0.10 & 0.10 & -0.36 & 0.36 \\ 
+  20 & 03\_heart-statlog.csv & spearman & Dffclt & 0.34 & -0.04 & 0.15 & -0.04 & -0.18 & 0.01 & 0.01 & 0.25 & -0.25 \\ 
+  21 & 03\_heart-statlog.csv & spearman & Dscrmn & 0.06 & 0.36 & 0.55 & -0.35 & -0.06 & 0.61 & 0.61 & 0.14 & -0.14 \\\hline 
+  22 & 03\_heart-statlog.csv & pearson & Gussng & -0.09 & 0.37 & 0.22 & -0.19 & 0.15 & 0.29 & 0.29 & -0.38 & 0.38 \\ 
+  23 & 03\_heart-statlog.csv & pearson & Dffclt & 0.02 & 0.05 & 0.04 & -0.09 & -0.09 & 0.14 & 0.14 & 0.00 & -0.00 \\ 
+  24 & 03\_heart-statlog.csv & pearson & Dscrmn & 0.06 & 0.34 & 0.55 & -0.35 & -0.05 & 0.64 & 0.64 & 0.11 & -0.11 \\ \hline
+  25 & 03\_heart-statlog.csv & kendall & Gussng & -0.02 & 0.22 & 0.12 & -0.09 & 0.12 & 0.06 & 0.06 & -0.29 & 0.29 \\ 
+  26 & 03\_heart-statlog.csv & kendall & Dffclt & 0.26 & -0.04 & 0.12 & -0.03 & -0.14 & 0.01 & 0.01 & 0.21 & -0.21 \\ 
+  27 & 03\_heart-statlog.csv & kendall & Dscrmn & 0.04 & 0.26 & 0.42 & -0.28 & -0.04 & 0.44 & 0.44 & 0.11 & -0.11 \\ \hline \hline
+  28 & 04\_ionosphere.csv & spearman & Gussng & 0.02 & 0.24 & 0.27 & -0.14 & -0.17 & 0.36 & 0.36 & 0.02 & -0.02 \\ 
+  29 & 04\_ionosphere.csv & spearman & Dffclt & 0.28 & -0.29 & 0.46 & -0.17 & -0.51 & 0.14 & 0.14 & 0.50 & -0.50 \\ 
+  30 & 04\_ionosphere.csv & spearman & Dscrmn & 0.17 & 0.16 & 0.58 & -0.29 & -0.52 & 0.26 & 0.26 & 0.37 & -0.37 \\ \hline
+  31 & 04\_ionosphere.csv & pearson & Gussng & -0.06 & 0.26 & 0.25 & -0.15 & -0.02 & 0.26 & 0.26 & -0.11 & 0.11 \\ 
+  32 & 04\_ionosphere.csv & pearson & Dffclt & -0.02 & -0.00 & -0.01 & -0.07 & -0.05 & 0.19 & 0.19 & -0.05 & 0.05 \\ 
+  33 & 04\_ionosphere.csv & pearson & Dscrmn & 0.24 & -0.03 & 0.38 & -0.21 & -0.58 & 0.31 & 0.31 & 0.46 & -0.46 \\ \hline
+  34 & 04\_ionosphere.csv & kendall & Gussng & 0.02 & 0.19 & 0.20 & -0.10 & -0.13 & 0.24 & 0.24 & 0.02 & -0.02 \\ 
+  35 & 04\_ionosphere.csv & kendall & Dffclt & 0.19 & -0.25 & 0.40 & -0.15 & -0.39 & 0.11 & 0.11 & 0.41 & -0.41 \\ 
+  36 & 04\_ionosphere.csv & kendall & Dscrmn & 0.11 & 0.10 & 0.47 & -0.23 & -0.40 & 0.18 & 0.18 & 0.30 & -0.30 \\ \hline \hline
+  37 & 05\_parkinsons.csv & spearman & Gussng & -0.44 & 0.34 & 0.44 & -0.48 & -0.42 & 0.60 & 0.60 & 0.03 & -0.03 \\ 
+  38 & 05\_parkinsons.csv & spearman & Dffclt & 0.31 & -0.52 & -0.46 & 0.06 & 0.30 & -0.29 & -0.29 & 0.42 & -0.42 \\ 
+  39 & 05\_parkinsons.csv & spearman & Dscrmn & -0.15 & -0.10 & -0.03 & -0.10 & 0.11 & 0.04 & 0.03 & 0.22 & -0.22 \\ \hline
+  40 & 05\_parkinsons.csv & pearson & Gussng & -0.41 & 0.44 & 0.32 & -0.48 & -0.43 & 0.56 & 0.56 & -0.03 & 0.03 \\ 
+  41 & 05\_parkinsons.csv & pearson & Dffclt & 0.08 & -0.16 & -0.08 & 0.12 & 0.05 & 0.02 & 0.02 & 0.17 & -0.17 \\ 
+  42 & 05\_parkinsons.csv & pearson & Dscrmn & -0.19 & -0.21 & 0.13 & -0.05 & 0.15 & -0.00 & -0.00 & 0.32 & -0.32 \\ \hline
+  43 & 05\_parkinsons.csv & kendall & Gussng & -0.30 & 0.26 & 0.35 & -0.40 & -0.35 & 0.46 & 0.46 & 0.03 & -0.03 \\ 
+  44 & 05\_parkinsons.csv & kendall & Dffclt & 0.24 & -0.44 & -0.35 & 0.05 & 0.21 & -0.22 & -0.22 & 0.35 & -0.35 \\ 
+  45 & 05\_parkinsons.csv & kendall & Dscrmn & -0.09 & -0.08 & -0.04 & -0.08 & 0.09 & 0.02 & 0.02 & 0.18 & -0.18 \\ 
+   \hline
+\end{tabular}
+}
+\end{table}

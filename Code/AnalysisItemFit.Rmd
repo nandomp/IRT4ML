@@ -1,0 +1,98 @@
+---
+title: "Fitness"
+author: "Fernando Martínez Plumed"
+date: "29 de diciembre de 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+library(ReporteRs)
+library(magrittr) 
+library(ggplot2)
+library(ggrepel)
+setwd("H:/Dropbox/Rworks/IRT/Noise")
+ds= "_Toy_/"
+
+  load(paste(ds,"ListAllResults.RData",sep="")) # ListDS_Results
+  load(paste(ds,"Methods.RData",sep="")) #methods
+  load(paste(ds,"Datasets.RData",sep="")) #datasets, ds (directory)
+  
+  
+  load(paste(ds,"irt_itemsfitness.RData",sep=""))
+  load(paste(ds,"irt_parameters_mc.RData",sep=""))
+  load(paste(ds, "algor_abilities_mc.RData",sep=""))
+  load(paste(ds,"algor_accuracies_mc.RData",sep=""))
+  load(paste(ds,"results_responses_mc.RData",sep=""))
+  load(paste(ds,"all_3P_IRT_models_mc.RData",sep=""))
+  load(paste(ds,"all_avgProbs.RData",sep=""))
+  load(paste(ds,"all_medianProbs.RData",sep=""))
+  load(paste(ds, "errorDS.RData",sep=""))
+  load(paste(ds, "seedsOK.Rdata", sep=""))
+  load(paste(ds,"responses_pSucc_listInst.RData",sep=""))
+  load(paste(ds,"goodnessFit_measures.RData",sep=""))
+  
+  datasets
+```
+
+
+
+```{r}
+
+ind_dataset = 2
+nameDS <- datasets[ind_dataset]
+print(paste("Dataset:", nameDS))
+datos <- read.csv(paste(ds,datasets[ind_dataset],sep=""))
+table(datos$Class)/nrow(datos)
+
+# Negative Discriminant
+neg <- length(as.vector(which(item_param[[ind_dataset]][,"Dscrmn"] < 0)))
+print(paste("Items with Negative discriminant:", neg))
+
+# Bad ICC fit
+nofit <- length(as.vector(which(items.fit[[ind_dataset]]$p.values < 0.0001)))
+print(paste("ICC Models with bad fit (p value <0.0001):", nofit))
+
+# plot
+do <- datos
+do <- cbind(do, item_param[[ind_dataset]])
+fit.p.values <- items.fit[[ind_dataset]]$p.values
+do <- cbind(do, fit.p.values)
+do$avgError <- rowMeans(results[[ind_dataset]], na.rm = T)# % of classifiers that succed for each item/instance
+for (i in 1:nrow(do)){
+      do$DiscLess0[i] = item_param[[ind_dataset]][i,"Dscrmn"]<0
+      do$DiscLess0_label[i] = if (item_param[[ind_dataset]][i,"Dscrmn"]<0){"x"}else{"o"}
+}
+    
+    
+    
+    
+dis <- ggplot(data = do, aes(x,y, shape = factor(Class))) + geom_point(aes(size = ifelse(Dffclt>=3,3,ifelse(Dffclt<(-3),-3,Dffclt)), colour = ifelse(Dscrmn<=(-5),-5,ifelse(Dscrmn>5,5,Dscrmn)))) + theme_bw() 
+        
+dis <- dis + scale_size(name="Dffclt", limits=c(-3,3), breaks = c(-3,-1.5,0,1.5,3), range=c(2,7)) + scale_colour_gradient(low="red", name="Dscrmn", limits=c(-5,5), breaks = c(-5,-2.5,0,2.5,5))
+
+dis <- dis + geom_text_repel(data = subset(do, fit.p.values< 0.0001), aes(label=row.names(subset(do, fit.p.values< 0.0001))), colour ="darkgreen", size = 2.5)
+
+dis
+         
+         
+doc=paste("Example",ind_dataset,".docx",sep="")         
+         
+docx( ) %>% addFlexTable( goodnessFit_measures[[ind_dataset]] %>% FlexTable( header.cell.props = cellProperties( background.color =  "#003366" ), header.text.props = textBold( color = "white" ),add.rownames = TRUE ) %>% setZebraStyle( odd = "#DDDDDD", even = "#FFFFFF" ) ) %>% 
+  writeDoc( file = doc )
+
+
+#cor(goodnessFit_measures[[ind_dataset]][,c(1,4,5,6)], use="complete.obs", method="spearm") 
+#cor(goodnessFit_measures[[ind_dataset]][,c(1,4,5,6)], use="complete.obs", method="pearson") 
+#cor(goodnessFit_measures[[ind_dataset]][,c(1,4,5,6)], use="complete.obs", method="kendall") 
+                
+cor(goodnessFit_measures[[ind_dataset]], use="complete.obs", method="spearm") 
+cor(goodnessFit_measures[[ind_dataset]], use="complete.obs", method="pearson") 
+cor(goodnessFit_measures[[ind_dataset]], use="complete.obs", method="kendall") 
+          
+```

@@ -1,0 +1,63 @@
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (04_ionosphere.csv_clean.csv): 74 111 132 190 258 284 307
+Noisy instances (05_parkinsons.csv_clean.csv): 28 48 170 171 172 180 181 183
+Noisy instances (06_balance-scale.csv_clean.csv): 146 181 241 286 301 326 359 363 395 409 507
+Noisy instances (07_energy_s.csv_clean.csv): 102 576
+Noisy instances (08_seeds.csv_clean.csv): 39 56 129 156 170
+Noisy instances (09_teaching.csv_clean.csv): 81 83 89 92 95 96 97 105
+Noisy instances (10_vertebral-column.csv_clean.csv): 5 19 26 259
+Noisy instances (11_ecoli.csv_clean.csv): 53 153 173 198 241 305
+Noisy instances (12_flags.csv_clean.csv): 32 40 56 58 91 119 135 149
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (04_ionosphere.csv_clean.csv): 74 111 132 190 258 284 307
+Noisy instances (05_parkinsons.csv_clean.csv): 28 48 170 171 172 180 181 183
+Noisy instances (06_balance-scale.csv_clean.csv): 146 181 241 286 301 326 359 363 395 409 507
+Noisy instances (07_energy_s.csv_clean.csv): 102 576
+Noisy instances (08_seeds.csv_clean.csv): 39 56 129 156 170
+Noisy instances (09_teaching.csv_clean.csv): 81 83 89 92 95 96 97 105
+Noisy instances (10_vertebral-column.csv_clean.csv): 5 19 26 259
+Noisy instances (11_ecoli.csv_clean.csv): 53 153 173 198 241 305
+Noisy instances (12_flags.csv_clean.csv): 32 40 56 58 91 119 135 149
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (04_ionosphere.csv_clean.csv): 74 111 132 190 258 284 307
+Noisy instances (05_parkinsons.csv_clean.csv): 28 48 170 171 172 180 181 183
+Noisy instances (06_balance-scale.csv_clean.csv): 146 181 241 286 301 326 359 363 395 409 507
+Noisy instances (07_energy_s.csv_clean.csv): 102 576
+Noisy instances (08_seeds.csv_clean.csv): 39 56 129 156 170
+Noisy instances (09_teaching.csv_clean.csv): 81 83 89 92 95 96 97 105
+Noisy instances (10_vertebral-column.csv_clean.csv): 5 19 26 259
+Noisy instances (11_ecoli.csv_clean.csv): 53 153 173 198 241 305
+Noisy instances (12_flags.csv_clean.csv): 32 40 56 58 91 119 135 149
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (04_ionosphere.csv_clean.csv): 74 111 132 190 258 284 307
+Noisy instances (05_parkinsons.csv_clean.csv): 28 48 170 171 172 180 181 183
+Noisy instances (06_balance-scale.csv_clean.csv): 146 181 241 286 301 326 359 363 395 409 507
+Noisy instances (07_energy_s.csv_clean.csv): 102 576
+Noisy instances (08_seeds.csv_clean.csv): 39 56 129 156 170
+Noisy instances (09_teaching.csv_clean.csv): 81 83 89 92 95 96 97 105
+Noisy instances (10_vertebral-column.csv_clean.csv): 5 19 26 259
+Noisy instances (11_ecoli.csv_clean.csv): 53 153 173 198 241 305
+Noisy instances (12_flags.csv_clean.csv): 32 40 56 58 91 119 135 149
+Noisy instances (01_chocardiogram.csv_clean.csv): 26
+Noisy instances (02_hepatitis.csv_clean.csv): 
+Noisy instances (03_heart-statlog.csv_clean.csv): 38 50 124 141 153
+Noisy instances (04_ionosphere.csv_clean.csv): 74 111 132 190 258 284 307
+Noisy instances (05_parkinsons.csv_clean.csv): 28 48 170 171 172 180 181 183
+Noisy instances (06_balance-scale.csv_clean.csv): 146 181 241 286 301 326 359 363 395 409 507
+Noisy instances (07_energy_s.csv_clean.csv): 102 576
+Noisy instances (08_seeds.csv_clean.csv): 39 56 129 156 170
+Noisy instances (09_teaching.csv_clean.csv): 81 83 89 92 95 96 97 105
+Noisy instances (10_vertebral-column.csv_clean.csv): 5 19 26 259
+Noisy instances (11_ecoli.csv_clean.csv): 53 153 173 198 241 305
+Noisy instances (12_flags.csv_clean.csv): 32 40 56 58 91 119 135 149
